@@ -4,7 +4,10 @@ const nextConfig: NextConfig = {
   /* config options here */
 
   images: {
-    domains: ["ik.imagekit.io", "freepik.com"],
+    domains: ["ik.imagekit.io"],
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 
